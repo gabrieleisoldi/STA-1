@@ -1,18 +1,48 @@
 <html>
 <body>
+<head>
 <title> I MIEI SITI PREFERITI </title>
-
+</head>
+<h1> I MIEI SITI PREFERITI </H1>
+<p>
 <a href="https://www.google.it/?hl=it"> 1. Google </a>
 <br>
+</p>
+<p>
 <a href="https://github.com/"> 2. GitHub </a>
 <br>
-<a href="https://www.torinofc.it/"> 3. Migliore squadra </a> 
+</p>
+<p>
+<a href="https://www.torinofc.it/"> 3. Torino fc </a> 
 <br>
+</p>
+<p>
 <a href="https://www.youtube.com/?app=desktop&hl=it&gl=it"> 4. Youtube </a>
 <br>
+</p>
+<p>
 <a href="https://www.netflix.com/"> 5. Netflix </a>
 <br>
+</p>
+<p>
 <a href="https://classroom.google.com/h"> 6. Classroom </a>
 <br>
+</p>
+<p>
+<a href="https://mail.google.com/mail/u/0/#inbox"> 7. Gmail </a>
+<br>
+</p>
+<p>
+<a href="https://www.amazon.it/?tag=operapc-def-sp-sd-it-21"> 8. Amazon </a>
+<br>
+</p>
+<p>
+<a href="https://poki.com/it#utm_source=italy"> 9. Poki </a>
+<br>
+</p>
+<p>
+<a href="https://www.w3schools.com"> 10. w3schools </a>
+<br>
+</p>
 </body>
 </html>
