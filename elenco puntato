@@ -4,7 +4,7 @@
 <title> I MIEI SITI PREFERITI </title>
 </head>
 <h1> I MIEI SITI PREFERITI </H1>
-
+<ul>
 <li><a href="https://www.google.it/?hl=it"> 1. Google </a></li>
 <li><a href="https://github.com/"> 2. GitHub </a></li>
 <li><a href="https://www.torinofc.it/"> 3. Torino fc </a></li>
@@ -15,5 +15,6 @@
 <li><a href="https://www.amazon.it/?tag=operapc-def-sp-sd-it-21"> 8. Amazon </a></li>
 <li><a href="https://poki.com/it#utm_source=italy"> 9. Poki </a></li>
 <li><a href="https://www.w3schools.com"> 10. w3schools </a></li>
+</ul>
 </body>
 </html>
