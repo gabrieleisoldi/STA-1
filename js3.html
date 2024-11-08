@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aforismi di Scienziati</title>
+  <style>
+    .aforisma {
+      margin: 20px 0;
+      padding: 15px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: magenta;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+  <h1>Aforismi degli scienziati</h1>
+
+  <div class="aforisma">
+    <p id="aforisma1"> “Quando l'ultimo puritano sarà scomparso dalla terra, l'uomo di scienza prenderà il suo posto come guastafeste.” Robert Staughton Lynd</p>
+    <button onclick="nascondiTesto('aforisma1')">Nascondi Aforisma</button>
+  </div>
+
+  <div class="aforisma">
+    <p id="aforisma2"> “L’uomo non scientifico è assalito dal deplorevole desiderio di aver avuto ragione. Lo scienziato si distingue per il desiderio di avere ragione.” Willard Van Orman Quine</p>
+    <button onclick="nascondiTesto('aforisma2')">Nascondi Aforisma</button>
+  </div>
+
+  <div class="aforisma">
+    <p id="aforisma3">“Le correnti filosofiche idealistiche hanno determinato un primo processo di isolamento degli scienziati (scienze naturali o esatte) dal mondo della cultura.” Antonio Gramsci</p>
+    <button onclick="nascondiTesto('aforisma3')">Nascondi Aforisma</button>
+  </div>
+
+  <div class="aforisma">
+    <p id="aforisma4"> “Lo scienziato deve avere approcci etici.” Severo Ochoa</p>
+    <button onclick="nascondiTesto('aforisma4')">Nascondi Aforisma</button>
+  </div>
+
+  <div class="aforisma">
+    <p id="aforisma5"> “Quando fai ricerca, non pensi molto se l'applicazione delle tue scoperte potrebbe essere pericolosa.” Severo Ochoa</p>
+    <button onclick="nascondiTesto('aforisma5')">Nascondi Aforisma</button>
+  </div>
+
+  <script>
+    function nascondiTesto(id) {
+      const testo = document.getElementById(id);
+      testo.style.display = "none"; 
+    }
+  </script>
+</body>
+</html>
