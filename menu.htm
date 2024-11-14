@@ -4,7 +4,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {margin:0;font-family:Arial}
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: white;
+}
 
 .topnav {
   overflow: hidden;
@@ -89,7 +93,9 @@ body {margin:0;font-family:Arial}
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -100,13 +106,21 @@ body {margin:0;font-family:Arial}
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
   }
+}
+
+.gabri {
+  padding: 20px;
 }
 </style>
 </head>
@@ -115,7 +129,15 @@ body {margin:0;font-family:Arial}
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
   <a href="#news">News</a>
-  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Contattami 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Telefono: +39 123 456 7890</a>
+      <a href="mailto:tuamail@example.com">Email: gabriele.bignozzi@jcmaxwell.it</a>
+    </div>
+  </div>
   <div class="dropdown">
     <button class="dropbtn">HTML-CSS 
       <i class="fa fa-caret-down"></i>
@@ -130,33 +152,26 @@ body {margin:0;font-family:Arial}
         <a href="https://bigno22.github.io/STA/bugs%20storici.html">Bugs storici</a>
         <a href="https://bigno22.github.io/STA/propriet%C3%A0%20display.html">Proprietà display</a>
         <a href="https://bigno22.github.io/STA/Bugs%20storici2.html">Bugs storici 2</a>
-        <a href="https://bigno22.github.io/STA/scheda_personale.html">Autore Gabriele</a>
-    
     </div>
-  </div> 
+  </div>
 
-  <div class="topnav" id="myTopnav">
-    
-    <div class="dropdown">
-      <button class="dropbtn">js 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-          <a href="https://bigno22.github.io/STA/js1.html">js1</a>
-          <a href="https://bigno22.github.io/STA/js2.html">js2</a>
-          <a href="https://bigno22.github.io/STA/js3.html">js3</a>
-          <a href="https://bigno22.github.io/STA/js4.html">js4</a>
-             
-      </div>
-    </div> 
-  <a href="#about">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">js 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        <a href="https://bigno22.github.io/STA/js1.html">js1</a>
+        <a href="https://bigno22.github.io/STA/js2.html">js2</a>
+        <a href="https://bigno22.github.io/STA/js3.html">js3</a>
+        <a href="https://bigno22.github.io/STA/js4.html">js4</a>
+    </div>
+  </div>
+  <a href="https://bigno22.github.io/STA/scheda_personale.html">Autore: Gabriele</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
-<div class="padding-left">
-   <p><h2>Responsive Topnav con Dropdown</h2></p>
-   <p>Ridimensiona la finestra del browser per vedere come funziona.</p>
-   <p>Passa il mouse sopra il pulsante del menu a discesa per aprire il menu a discesa.</p>
+<div class="gabri">
+  <h2>Gabriele Bignozzi</h2>
 </div>
 
 <script>
